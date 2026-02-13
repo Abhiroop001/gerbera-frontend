@@ -5,7 +5,7 @@ import { MdCheckCircle, MdCancel } from "react-icons/md";
 
 
 const API_URL =
-  import.meta.env.VITE_API_URL || "http://127.0.0.1:10000/predict";
+  import.meta.env.VITE_API_URL || "https://gerbera-backend.onrender.com/predict";
 
 const featureColumns = [
   "Nitrogen",
